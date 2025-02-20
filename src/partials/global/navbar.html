@@ -58,7 +58,7 @@
 
   async function fetchGeminiResponse(query) {
     try {
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=AIzaSyBNZT0zw8_xj0V30RA6qH5Bm6cQrcJN8bA`, {
+        const response = await fetch`API`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
