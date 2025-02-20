@@ -1,0 +1,447 @@
+<div class="min-h-[640px] bg-white dark:bg-tuna">
+  <div x-data="{ open: false }" @keydown.window.escape="open = false">
+    <!-- Static sidebar for desktop -->
+    {{>"global/desktopNavigation"}}
+
+    <div class="relative z-0 flex flex-1 overflow-hidden">
+      <div class="focus:outline-none lg:pl-72 relative z-0 flex-1 overflow-y-auto">
+        {{>"global/navbar"}} {{>"global/mobileNavigation"}}
+
+        <!-- Start main area-->
+        <div class="flex-1 mx-auto">
+          <section class=" dark:bg-tuna border-periblue max-w-7xl dark:border-gun mx-auto bg-white border-b">
+            <div class="max-w-7xl sm:px-6 md:px-32 pt-44 px-4 mx-auto">
+              <h1 data-animate="title"
+                class=" text-comet dark:text-manatee lg:text-5xl py-10 mx-auto text-4xl font-light leading-none tracking-tighter">
+                JEE Mains Syllabus
+              </h1>
+            </div>
+          </section>
+          <section class="dark:bg-tuna pt-6 pb-24 bg-white">
+            <div class="sm:px-6 md:px-32 px-4 mx-auto">
+              <!-- Replace with your content -->
+              <section>
+                <div class="max-w-3xl">
+                  <div class="mx-auto space-y-24 text-lg text-left">
+                    <div class="space-y-8">
+                      <p class=" text-waterloo dark:text-santa sm:text-lg md:mt-5 md:text-xl text-base font-light">
+                        Thos are al the components available on Dockerz
+                      </p>
+                      <div>
+                        <ul role="list" a class=" sm:text-lg md:mt-5 md:text-xl space-y-3 text-base list-none">
+                          <li>
+                            <a class=" text-waterloo dark:text-santa hover:text-oyster dark:hover:text-oyster font-light"
+                              href="#mathematics">
+                              &#8627; Maths
+                            </a>
+                          </li>
+                          <li>
+                            <a class=" text-waterloo dark:text-santa hover:text-oyster dark:hover:text-oyster font-light"
+                              href="#physics">
+                              &#8627; Physics
+                            </a>
+                          </li>
+                          <li>
+                            <a class=" text-waterloo dark:text-santa hover:text-oyster dark:hover:text-oyster font-light"
+                              href="#chemistry">
+                              &#8627; Chemistry
+                            </a>
+                          </li>
+                          <li>
+                            <a class=" text-waterloo dark:text-santa hover:text-oyster dark:hover:text-oyster font-light"
+                              href="#breadcrumbs">
+                              &#8627; Breadcrumbs
+                            </a>
+                          </li>
+                        
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="space-y-12" id="mathematics">
+                      <h2 class="text-lg font-normal text-comet dark:text-manatee hover:text-oyster lg:text-2xl group">
+                        <a href="" class="inline-flex items-center gap-4 text-comet dark:text-manatee dark:hover:text-periblue">
+                          Mathematics Syllabus
+                          <svg class="hidden w-6 h-6 group-hover:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path fill="currentColor" d="M17.657 14.828l-1.414-1.414L17.657 12A4 4 0 1 0 12 6.343l-1.414 1.414-1.414-1.414 1.414-1.414a6 6 0 0 1 8.485 8.485l-1.414 1.414zm-2.829 2.829l-1.414 1.414a6 6 0 1 1-8.485-8.485l1.414-1.414 1.414 1.414L6.343 12A4 4 0 1 0 12 17.657l1.414-1.414 1.414 1.414zm0-9.9l1.415 1.415-7.071 7.07-1.415-1.414 7.071-7.07z" />
+                          </svg>
+                        </a>
+                      </h2>
+                      <div class="space-y-6">
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 1: SETS, RELATIONS AND FUNCTIONS</strong><br>
+                          Sets and their representation; Union, intersection and complement of sets and their algebraic properties; Power set; Relations, types of relations, equivalence relations, functions; one-one, into and onto functions, the composition of functions.
+                        </p>
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 2: COMPLEX NUMBERS AND QUADRATIC EQUATIONS</strong><br>
+                          Complex numbers as ordered pairs of reals, Representation of complex numbers in the form a + ib and their representation in a plane, Argand diagram, algebra of complex numbers, modulus and argument (or amplitude) of a complex number, Quadratic equations in real and complex number systems and their solutions; Relations between roots and coefficients, nature of roots, the formation of quadratic equations with given roots.
+                        </p>
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 3: MATRICES AND DETERMINANTS</strong><br>
+                          Matrices, algebra of matrices, types of matrices, determinants and matrices of order two and three, evaluation of determinants, area of triangles using determinants; Adjoint and inverse of a square matrix; Test of consistency and solution of simultaneous linear equations in two or three variables using matrices.
+                        </p>
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 4: PERMUTATIONS AND COMBINATIONS</strong><br>
+                          The fundamental principle of counting, permutations and combinations; Meaning of P(n, r) and C(n, r). Simple applications.
+                        </p>
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 5: BINOMIAL THEOREM AND ITS SIMPLE APPLICATIONS</strong><br>
+                          Binomial theorem for a positive integral index, general term and middle term and simple applications.
+                        </p>
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 6: SEQUENCE AND SERIES</strong><br>
+                          Arithmetic and Geometric progressions, insertion of arithmetic, geometric means between two given numbers, Relation between A.M and G.M.
+                        </p>
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 7: LIMIT, CONTINUITY AND DIFFERENTIABILITY</strong><br>
+                          Real–valued functions, algebra of functions; polynomial, rational, trigonometric, logarithmic and exponential functions; inverse functions. Graphs of simple functions. Limits, continuity and differentiability. Differentiation of the sum, difference, product and quotient of two functions. Differentiation of trigonometric, inverse trigonometric, logarithmic, exponential, composite and implicit functions; derivatives of order up to two, Applications of derivatives: Rate of change of quantities, monotonic-Increasing and decreasing functions, Maxima and minima of functions of one variable.
+                        </p>
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 8: INTEGRAL CALCULUS</strong><br>
+                          Integral as an anti-derivative, Fundamental integrals involving algebraic, trigonometric, exponential and logarithmic functions. Integration by substitution, by parts and by partial fractions. Integration using trigonometric identities. Evaluation of simple integrals. <span class="text-blue-400">*Photo*</span> The fundamental theorem of calculus, properties of definite integrals. Evaluation of definite integrals, determining areas of the regions bounded by simple curves in standard forms.
+                        </p>
+
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 9: DIFFRENTIAL EQUATIONS:</strong><br>
+                          Ordinary differential equations, their order and degree, the solution of differential equation by the method of separation of variables, solution of a homogeneous and linear differential equation of the type <span class="text-blue-400">*Photo*</span>
+                        </p>
+
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 10: CO-ORDINATE GEOMETRY:</strong><br>
+                          Cartesian system of rectangular coordinates in a plane, distance formula, sections formula, locus and its equation, the slope of a line, parallel and perpendicular lines, intercepts of a line on the co-ordinate axis.<br>
+                          Straight line: Various forms of equations of a line, intersection of lines, angles between two lines, conditions for concurrence of three lines, the distance of a point from a line, co-ordinate of the centroid, orthocentre and circumcentre of a triangle.<br>
+                          Circle, conic sections: A standard form of equations of a circle, the general form of the equation of a circle, its radius and centre, equation of a circle when the endpoints of a diameter are given, points of intersection of a line and a circle with the centre at the origin and sections of conics, equations of conic sections (parabola, ellipse and hyperbola) in standard forms.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 11: THREE DIMENSIONAL GEOMETRY:</strong><br>
+                          Coordinates of a point in space, the distance between two points, section formula, direction ratios and direction cosines and the angle between two intersecting lines. Equation of a line; Skew lines, the shortest distance between them and its equation.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 12: VECTOR ALGEBRA:</strong><br>
+                          Vectors and scalars, the addition of vectors, components of a vector in two dimensions and three-dimensional spaces, scalar and vector products.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 13: STATISTICS AND PROBABILITY:</strong><br>
+                          Measures of dispersion; calculation of mean, median, mode of grouped and ungrouped data, calculation of standard deviation, variance and mean deviation for grouped and ungrouped data. Probability: Probability of an event, addition and multiplication theorems of probability, Baye's theorem, probability distribution of a random variable.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 14: TRIGONOMETRY:</strong><br>
+                          Trigonometrical identities and trigonometrical functions, inverse trigonometrical functions and their properties.
+                        </p>
+                        
+                      </div>
+                    </div>
+
+                    <div class="space-y-12" id="physics">
+                      <h2 class="text-lg font-normal text-comet dark:text-manatee hover:text-oyster lg:text-2xl group">
+                        <a href="" class="inline-flex items-center gap-4 text-comet dark:text-manatee dark:hover:text-periblue">
+                          Physics Syllabus
+                          <svg class="hidden w-6 h-6 group-hover:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path fill="currentColor" d="M17.657 14.828l-1.414-1.414L17.657 12A4 4 0 1 0 12 6.343l-1.414 1.414-1.414-1.414 1.414-1.414a6 6 0 0 1 8.485 8.485l-1.414 1.414zm-2.829 2.829l-1.414 1.414a6 6 0 1 1-8.485-8.485l1.414-1.414 1.414 1.414L6.343 12A4 4 0 1 0 12 17.657l1.414-1.414 1.414 1.414zm0-9.9l1.415 1.415-7.071 7.07-1.415-1.414 7.071-7.07z" />
+                          </svg>
+                        </a>
+                      </h2>
+                      <div class="space-y-6">
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 1: Units and Measurements:</strong><br>
+                          Units of measurements, System of units, SI Units, fundamental and derived units, least count, significant figures, Errors in measurements. Dimensions of Physics quantities, dimensional analysis and its applications.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 2: Kinematics:</strong><br>
+                          The frame of reference, motion in a straight line, speed and velocity, uniform and non-uniform motion, average speed and instantaneous velocity, uniformly accelerated motion, velocity-time, position-time graph, relations for uniformly accelerated motion, relative velocity. Motion in a plane, projectile motion, uniform circular motion.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 3: Laws of Motion:</strong><br>
+                          Force and inertia, Newton’s first law of motion, momentum, Newton’s second Law of motion, impulse, Newton’s third Law of motion. Law of conservation of linear momentum and its applications, equilibrium of concurrent forces. Static and Kinetic friction, laws of friction, rolling friction. Dynamics of uniform circular motion, centripetal force and its applications: vehicle on a level circular road, vehicle on a banked road.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 4: Work, Energy and Power:</strong><br>
+                          Work done by a constant force and a variable force, kinetic and potential energies, work-energy theorem, power. The potential energy of a spring, conservation of mechanical energy, conservative and non-conservative forces, motion in a vertical circle. Elastic and inelastic collisions in one and two dimensions.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 5: Rotational Motion:</strong><br>
+                          Centre of mass of a two-particle system, centre of mass of a rigid body. Basic concepts of rotational motion, moment of a force, torque, angular momentum, conservation of angular momentum and its applications. The moment of inertia, the radius of gyration, values of moments of inertia for simple geometrical objects, parallel and perpendicular axes theorems and their applications. Equilibrium of rigid bodies, rigid body rotation and equations of rotational motion, comparison of linear and rotational motions.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 6: Gravitation:</strong><br>
+                          The universal law of gravitation. Acceleration due to gravity and its variation with altitude and depth. Kepler’s law of planetary motion. Gravitational potential energy, gravitational potential. Escape velocity, motion of a satellite, orbital velocity, time period and energy of satellite.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 7: Properties of Solids and Liquids:</strong><br>
+                          Elastic behaviour, stress-strain relationship, Hooke's Law, Young's modulus, bulk modulus and modulus of rigidity.Pressure due to a fluid column, Pascal's law and its applications, effect of gravity on fluid pressure, viscosity, Stoke’s law, terminal velocity, streamline and turbulent flow, critical velocity, Bernoulli's principle and its applications. Surface energy and surface tension, angle of contact, excess of pressure across a curved surface, application of surface tension: drops, bubbles and capillary rise. Heat, temperature, thermal expansion, specific heat capacity, calorimetry, change of state, latent heat. Heat transfer: conduction, convection and radiation.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 8: Thermodynamics:</strong><br>
+                          Thermal equilibrium and the concept of temperature, zeroth law of thermodynamics, heat, work and internal energy. The first law of thermodynamics, isothermal and adiabatic processes. The second law of thermodynamics: reversible and irreversible processes.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 9: Kinetic Theory of Gases:</strong><br>
+                          Equation of state of a perfect gas, work done on compressing a gas, kinetic theory of gases: assumptions, the concept of pressure, kinetic interpretation of temperature, RMS speed of gas molecules, degrees of freedom, law of equipartition of energy and applications to specific heat capacities of gases, mean free path, Avogadro's number.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 10: Oscillations and Waves:</strong><br>
+                          Oscillations and periodic motion: time period, frequency, displacement as a function of time, periodic functions. Simple harmonic motion (S.H.M.) and its equation, phase, oscillations of a spring: restoring force and force constant, energy in S.H.M.: kinetic and potential energies, simple pendulum: derivation of expression for its time period.<br>
+                          Wave motion, longitudinal and transverse waves, speed of the travelling wave, displacement relation for a progressive wave, principle of superposition of waves, reflection of waves, standing waves in strings and organ pipes, fundamental mode and harmonics, beats.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 11: Electrostatics:</strong><br>
+                          Electric charges: conservation of charge, Coulomb's law forces between two point charges, forces between multiple charges, superposition principle and continuous charge distribution.<br>
+                          Electric field: electric field due to a point charge, electric field lines, electric dipole, electric field due to a dipole, torque on a dipole in a uniform electric field.<br>
+                          Electric flux, Gauss's law and its applications to find field due to infinitely long uniformly charged straight wire, uniformly charged infinite plane sheet and uniformly charged thin spherical shell.<br>
+                          Electric potential and its calculation for a point charge, electric dipole and system of charges, potential difference, equipotential surfaces, electrical potential energy of a system of two point charges and of electric dipole in an electrostatic field.<br>
+                          Conductors and insulators, dielectrics and electric polarization, capacitors and capacitance, the combination of capacitors in series and parallel and capacitance of a parallel plate capacitor with and without dielectric medium between the plates, energy stored in a capacitor.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 12: Current Electricity:</strong><br>
+                          Electric current: drift velocity, mobility and their relation with electric current, Ohm's law, electrical resistance, I-V characteristics of Ohmic and non-ohmic conductors, electrical energy and power, electrical resistivity and conductivity, series and parallel combinations of resistors, temperature dependence of resistance.<br>
+                          Internal resistance, potential difference and emf of a cell, a combination of cells in series and parallel.<br>
+                          Kirchhoff’s laws and their applications, Wheatstone bridge, Metre Bridge.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 13: Magnetic Effects of Current and Magnetism:</strong><br>
+                          Biot - Savart law and its application to the current carrying circular loop, Ampere's law and its applications to infinitely long current carrying straight wire and solenoid.<br>
+                          Force on a moving charge in uniform magnetic and electric fields, force on a current-carrying conductor in a uniform magnetic field, the force between two parallel currents carrying conductors-definition of ampere, torque experienced by a current loop in a uniform magnetic field: Moving coil galvanometer, its sensitivity and conversion to ammeter and voltmeter.<br>
+                          Current loop as a magnetic dipole and its magnetic dipole moment, bar magnet as an equivalent solenoid, magnetic field lines, magnetic field due to a magnetic dipole (bar magnet) along its axis and perpendicular to its axis, torque on a magnetic dipole in a uniform magnetic field, para-, dia- and ferromagnetic substances with examples, the effect of temperature on magnetic properties.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 14: Electromagnetic Induction and Alternating Currents:</strong><br>
+                          Electromagnetic induction: Faraday's law, induced emf and current, Lenz’s law, eddy currents, self and mutual inductance.<br>
+                          Alternating currents, peak and RMS value of alternating current/voltage, reactance and impedance, LCR series circuit, resonance, power in AC circuits, wattless current, AC generator and transformer.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 15: Electromagnetic Waves:</strong><br>
+                          Displacement current, electromagnetic waves and their characteristics, transverse nature of electromagnetic waves, electromagnetic spectrum (radio waves, microwaves, infrared, visible, ultraviolet, X-rays, Gamma rays), applications of electromagnetic waves.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 16: Optics:</strong><br>
+                          Reflection of light, spherical mirrors, mirror formula. Refraction of light at plane and spherical surfaces, thin lens formula and lens maker formula, total internal reflection and its applications, magnification, power of a lens, combination of thin lenses in contact, refraction of light through a prism, microscope and astronomical telescope (reflecting and refracting) and their magnifying powers.<br>
+                          Wave optics: wavefront and Huygens’ Principle, laws of reflection and refraction using Huygens' principle. Interference: Young's double-slit experiment and expression for fringe width, coherent sources and sustained interference of light. Diffraction due to a single slit, width of central maximum.<br>
+                          Polarization: plane-polarized light, Brewster's law, uses of plane-polarized light and Polaroid.
+                        </p>
+                        
+                      </div>
+                    </div>
+
+                    <div class="space-y-12" id="chemistry">
+                      <h2 class="text-lg font-normal text-comet dark:text-manatee hover:text-oyster lg:text-2xl group">
+                        <a href="" class="inline-flex items-center gap-4 text-comet dark:text-manatee dark:hover:text-periblue">
+                          Chemistry Syllabus
+                          <svg class="hidden w-6 h-6 group-hover:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path fill="currentColor" d="M17.657 14.828l-1.414-1.414L17.657 12A4 4 0 1 0 12 6.343l-1.414 1.414-1.414-1.414 1.414-1.414a6 6 0 0 1 8.485 8.485l-1.414 1.414zm-2.829 2.829l-1.414 1.414a6 6 0 1 1-8.485-8.485l1.414-1.414 1.414 1.414L6.343 12A4 4 0 1 0 12 17.657l1.414-1.414 1.414 1.414zm0-9.9l1.415 1.415-7.071 7.07-1.415-1.414 7.071-7.07z" />
+                          </svg>
+                        </a>
+                      </h2>
+                      <div class="space-y-6">
+                        <h2 class="text-lg font-normal text-comet dark:text-manatee hover:text-oyster lg:text-2xl group">
+                          <a href="" class="inline-flex items-center gap-4 text-comet dark:text-manatee dark:hover:text-periblue">
+                            Physical Chemistry
+                            <svg class="hidden w-6 h-6 group-hover:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                              <path fill="none" d="M0 0h24v24H0z" />
+                              <path fill="currentColor" d="M17.657 14.828l-1.414-1.414L17.657 12A4 4 0 1 0 12 6.343l-1.414 1.414-1.414-1.414 1.414-1.414a6 6 0 0 1 8.485 8.485l-1.414 1.414zm-2.829 2.829l-1.414 1.414a6 6 0 1 1-8.485-8.485l1.414-1.414 1.414 1.414L6.343 12A4 4 0 1 0 12 17.657l1.414-1.414 1.414 1.414zm0-9.9l1.415 1.415-7.071 7.07-1.415-1.414 7.071-7.07z" />
+                            </svg>
+                          </a>
+                        </h2>
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT I: Some Basic Concepts in Chemistry:</strong><br>
+                          Matter and its nature, Dalton's atomic theory, concept of atom, molecule, element, and compound, laws of chemical combination, atomic and molecular masses, mole concept, molar mass, percentage composition, empirical and molecular formulae, chemical equations, and stoichiometry.<br>
+                          
+                          <strong>UNIT 2: Atomic Structure:</strong><br>
+                          Nature of electromagnetic radiation, photoelectric effect, spectrum of the hydrogen atom, Bohr model of a hydrogen atom - its postulates, derivation of the relations for the energy of the electron and radii of the different orbits, limitations of Bohr's model, dual nature of matter, de Broglie's relationship, Heisenberg uncertainty principle, elementary ideas of quantum mechanics, the quantum mechanical model of the atom and its important features, concept of atomic orbitals as one-electron wave functions, variation of Ψ and Ψ² with r for 1s and 2s orbitals, various quantum numbers (principal, angular momentum, and magnetic quantum numbers) and their significance, shapes of s, p, and d orbitals, electron spin and spin quantum number, rules for filling electrons in orbitals - Aufbau principle, Pauli's exclusion principle, and Hund's rule, electronic configuration of elements and extra stability of half-filled and completely filled orbitals.<br>
+                          
+                          <strong>UNIT 3: Chemical Bonding and Molecular Structure:</strong><br>
+                          Kossel-Lewis approach to chemical bond formation, the concept of ionic and covalent bonds.<br>
+                          <strong>Ionic Bonding:</strong> Formation of ionic bonds, factors affecting the formation of ionic bonds; calculation of lattice enthalpy.<br>
+                          <strong>Covalent Bonding:</strong> Concept of electronegativity, Fajan's rule, dipole moment, Valence Shell Electron Pair Repulsion (VSEPR) theory, and shapes of simple molecules.<br>
+                          Quantum mechanical approach to covalent bonding: Valence bond theory - its important features, the concept of hybridization involving s, p, and d orbitals, resonance.<br>
+                          Molecular Orbital Theory - Its important features, LCAOs, types of molecular orbitals (bonding, antibonding), sigma and pi-bonds, molecular orbital electronic configurations of homonuclear diatomic molecules, the concept of bond order, bond length, and bond energy.<br>
+                          Elementary idea of metallic bonding, hydrogen bonding, and its applications.<br>
+                          
+                          <strong>UNIT 4: Chemical Thermodynamics:</strong><br>
+                          Fundamentals of thermodynamics: System and surroundings, extensive and intensive properties, state functions, entropy, types of processes.<br>
+                          The first law of thermodynamics - Concept of work, heat, internal energy, and enthalpy, heat capacity, molar heat capacity, Hess's law of constant heat summation, enthalpies of bond dissociation, combustion, formation, atomization, sublimation, phase transition, hydration, ionization, and solution.<br>
+                          The second law of thermodynamics - Spontaneity of processes, ΔS of the universe, and ΔG of the system as criteria for spontaneity. ΔG° (Standard Gibbs energy change) and equilibrium constant.<br>
+                          
+                          <strong>UNIT 5: Solutions:</strong><br>
+                          Different methods for expressing the concentration of solution - molality, molarity, mole fraction, percentage (by volume and mass both), the vapor pressure of solutions, and Raoult's Law - Ideal and non-ideal solutions, vapor pressure - composition, plots for ideal and non-ideal solutions, colligative properties of dilute solutions - a relative lowering of vapor pressure, depression of freezing point, elevation of boiling point, and osmotic pressure, determination of molecular mass using colligative properties, abnormal value of molar mass, van't Hoff factor, and its significance.<br>
+                      </p>
+                      
+                      <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                        <strong>UNIT 6: EQUILIBRIUM</strong><br>
+                        Meaning of equilibrium is the concept of dynamic equilibrium.<br>
+                        Equilibria involving physical processes: Solid-liquid, liquid-gas, gas-gas and solid-gas equilibria, Henry's law. General characteristics of equilibrium involving physical processes.<br>
+                        Equilibrium involving chemical processes: Law of chemical equilibrium, equilibrium constants (Kp and Kc) and their significance, the significance of Δ G and Δ G ° in chemical equilibrium, factors affecting equilibrium concentration, pressure, temperature, the effect of catalyst, Le Chatelier’s principle.<br>
+                        Ionic equilibrium: Weak and strong electrolytes, ionization of electrolytes, various concepts of acids and bases (Arrhenius, Bronsted - Lowry and Lewis) and their ionization, acid-base equilibria (including multistage ionization) and ionization constants, ionization of water, pH scale, common ion effect, hydrolysis of salts and pH of their solutions, the solubility of sparingly soluble salts, solubility products and buffer solutions.
+                      </p>
+                      
+                      <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                        <strong>UNIT 7: REDOX REACTIONS AND ELECTROCHEMISTRY</strong><br>
+                        Electronic concepts of oxidation and reduction, redox reactions, oxidation number, rules for assigning oxidation number and balancing of redox reactions.<br>
+                        Electrolytic and metallic conduction, conductance in electrolytic solutions, molar conductivities and their variation with concentration, Kohlrausch’s law and its applications.<br>
+                        Electrochemical cells - Electrolytic and Galvanic cells, different types of electrodes, electrode potentials including standard electrode potential, half-cell and cell reactions, emf of a Galvanic cell and its measurement, Nernst equation and its applications, relationship between cell potential and Gibbs' energy change, dry cell and lead accumulator, fuel cells.
+                      </p>
+                      
+                      <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                        <strong>UNIT 8: CHEMICAL KINETICS</strong><br>
+                        Rate of a chemical reaction, factors affecting the rate of reactions: concentration, temperature, pressure and catalyst, elementary and complex reactions, order and molecularity of reactions, rate law, rate constant and its units, differential and integral forms of zero and first-order reactions, their characteristics and half-lives, the effect of temperature on the rate of reactions, Arrhenius theory, activation energy and its calculation, collision theory of bi-molecular gaseous reactions (no derivation).
+                      </p>
+                        <h2 class="text-lg font-normal text-comet dark:text-manatee hover:text-oyster lg:text-2xl group">
+                          <a href="" class="inline-flex items-center gap-4 text-comet dark:text-manatee dark:hover:text-periblue">
+                            Inorganic Chemistry
+                            <svg class="hidden w-6 h-6 group-hover:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                              <path fill="none" d="M0 0h24v24H0z" />
+                              <path fill="currentColor" d="M17.657 14.828l-1.414-1.414L17.657 12A4 4 0 1 0 12 6.343l-1.414 1.414-1.414-1.414 1.414-1.414a6 6 0 0 1 8.485 8.485l-1.414 1.414zm-2.829 2.829l-1.414 1.414a6 6 0 1 1-8.485-8.485l1.414-1.414 1.414 1.414L6.343 12A4 4 0 1 0 12 17.657l1.414-1.414 1.414 1.414zm0-9.9l1.415 1.415-7.071 7.07-1.415-1.414 7.071-7.07z" />
+                            </svg>
+                          </a>
+                        </h2>
+
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 9: Classification of Elements and Periodicity in Properties:</strong><br>
+                          Modern periodic law and present form of the periodic table, s, p, d, and f block elements, periodic trends in properties of elements - atomic and ionic radii, ionization enthalpy, electron gain enthalpy, valence, oxidation states, and chemical reactivity. Actinoids - Electronic configuration and oxidation states.<br>
+                          
+                          <strong>UNIT 10: p-Block Elements:</strong><br>
+                          Group 13 to Group 18 Elements<br>
+                          General Introduction: Electronic configuration and general trends in physical and chemical properties of elements across the periods and down the groups, unique behavior of the first element in each group.<br>
+                          
+                          <strong>UNIT 11: d- and f-Block Elements:</strong><br>
+                          <strong>Transition Elements:</strong> General introduction, electronic configuration, occurrence, and characteristics, general trends in properties of the first-row transition elements - physical properties, ionization enthalpy, oxidation states, atomic radii, color, catalytic behavior, magnetic properties, complex formation, interstitial compounds, alloy formation, preparation, properties, and uses of K₂Cr₂O₇ and KMnO₄.<br>
+                          <strong>Inner Transition Elements:</strong> Lanthanoids - Electronic configuration, oxidation states, and Lanthanoid contraction.<br>
+                          
+                          <strong>UNIT 12: Coordination Compounds:</strong><br>
+                          Introduction to coordination compounds. Werner's theory, ligands, coordination number, denticity, chelation, IUPAC nomenclature of mononuclear coordination compounds, isomerism, Bonding: Valence bond approach and basic ideas of Crystal Field Theory, color and magnetic properties, importance of coordination compounds (in qualitative analysis, extraction of metals, and in biological systems).<br>
+                      </p>
+                      
+
+                        <h2 class="text-lg font-normal text-comet dark:text-manatee hover:text-oyster lg:text-2xl group">
+                          <a href="" class="inline-flex items-center gap-4 text-comet dark:text-manatee dark:hover:text-periblue">
+                            Organic Chemistry
+                            <svg class="hidden w-6 h-6 group-hover:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                              <path fill="none" d="M0 0h24v24H0z" />
+                              <path fill="currentColor" d="M17.657 14.828l-1.414-1.414L17.657 12A4 4 0 1 0 12 6.343l-1.414 1.414-1.414-1.414 1.414-1.414a6 6 0 0 1 8.485 8.485l-1.414 1.414zm-2.829 2.829l-1.414 1.414a6 6 0 1 1-8.485-8.485l1.414-1.414 1.414 1.414L6.343 12A4 4 0 1 0 12 17.657l1.414-1.414 1.414 1.414zm0-9.9l1.415 1.415-7.071 7.07-1.415-1.414 7.071-7.07z" />
+                            </svg>
+                          </a>
+                        </h2>
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 13: PURIFICATION AND CHARACTERISATION OF ORGANIC COMPOUNDS</strong><br>
+                          Purification- Crystallization, sublimation, distillation, differential extraction and chromatography - principles and their applications.<br>
+                          Qualitative analysis- Detection of nitrogen, sulphur, phosphorus and halogens.<br>
+                          Quantitative analysis (basic principles only) - Estimation of carbon, hydrogen, nitrogen, halogens, sulphur and phosphorus.<br>
+                          Calculations of empirical formulae and molecular formulae, numerical problems in organic quantitative analysis.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 14: SOME BASIC PRINCIPLES OF ORGANIC CHEMISTRY</strong><br>
+                          Tetravalency of carbon, shapes of simple molecules - hybridization (s and p): classification of organic compounds based on functional groups and those containing halogens, oxygen, nitrogen and sulphur, homologous series: Isomerism - structural and stereoisomerism.<br>
+                          Nomenclature (Trivial and IUPAC)<br>
+                          Covalent bond fission - Homolytic and heterolytic, free radicals, carbocations and carbanions, stability of carbocations and free radicals, electrophiles and nucleophiles.<br>
+                          Electronic displacement in a covalent bond - Inductive effect, electromeric effect, resonance and hyperconjugation.<br>
+                          Common types of organic reactions- Substitution, addition, elimination and rearrangement.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 15: HYDROCARBONS</strong><br>
+                          Classification, isomerism, IUPAC nomenclature, general methods of preparation, properties and reactions.<br>
+                          Alkanes- Conformations: Sawhorse and Newman projections (of ethane), mechanism of halogenation of alkanes.<br>
+                          Alkenes- Geometrical isomerism, mechanism of electrophilic addition, addition of hydrogen, halogens, water, hydrogen halides (Markownikoffs and peroxide effect), Ozonolysis and polymerization.<br>
+                          Alkynes- Acidic character, addition of hydrogen, halogens, water and hydrogen halides, polymerization.<br>
+                          Aromatic hydrocarbons- Nomenclature, benzene - structure and aromaticity, mechanism of electrophilic substitution, halogenation, nitration. Friedel-Craft's alkylation and acylation, directive influence of the functional group in mono- substituted benzene.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 16: ORGANIC COMPOUNDS CONTAINING HALOGENS</strong><br>
+                          General methods of preparation, properties and reactions, nature of C-X bond, mechanisms of substitution reactions.<br>
+                          Uses, environmental effects of chloroform, iodoform, freons and DDT.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 17: ORGANIC COMPOUNDS CONTAINING OXYGEN</strong><br>
+                          General methods of preparation, properties, reactions and uses.<br>
+                          <strong>ALCOHOLS, PHENOLS AND ETHERS</strong><br>
+                          Alcohols: Identification of primary, secondary and tertiary alcohols, mechanism of dehydration.<br>
+                          Phenols: Acidic nature, electrophilic substitution reactions, halogenation, nitration and sulphonation, Reimer - Tiemann reaction.<br>
+                          Ethers: Structure.<br>
+                          Aldehyde and Ketones: Nature of carbonyl group, nucleophilic addition to >C=O group, relative reactivities of aldehydes and ketones, important reactions such as - Nucleophilic addition reactions (addition of HCN, NH3 and its derivatives), Grignard reagent, oxidation, reduction (Wolf Kishner and Clemmensen), the acidity of α-hydrogen. Aldol condensation, Cannizzaro reaction, Haloform reaction, chemical tests to distinguish between aldehydes and ketones.<br>
+                          Carboxylic Acids: Acidic strength and factors affecting it.
+                        </p>
+
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 18: ORGANIC COMPOUNDS CONTAINING NITROGEN</strong><br>
+                          General methods of preparation, properties, reactions and uses.<br>
+                          Amines: Nomenclature, classification, structure, basic character and identification of primary, secondary and tertiary amines and their basic character.<br>
+                          Diazonium Salts: Importance in synthetic organic chemistry.
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 19: BIOMOLECULES</strong><br>
+                          General introduction and importance of biomolecules.<br>
+                          CARBOHYDRATES– Classification, aldoses and ketoses, monosaccharides (glucose and fructose) and constituent monosaccharides of oligosaccharides (sucrose, lactose and maltose).<br>
+                          PROTEINS- Elementary idea of α-amino acids, peptide bond, polypeptides, proteins: primary, secondary, tertiary and quaternary structure (qualitative idea only), denaturation of proteins, enzymes.<br>
+                          VITAMINS– Classification and functions.<br>
+                          NUCLEIC ACIDS– Chemical constitution of DNA and RNA, biological functions of nucleic acids.<br>
+                          Hormones (General introduction)
+                        </p>
+                        
+                        <p class="text-base font-light text-waterloo dark:text-santa sm:text-lg">
+                          <strong>UNIT 20: PRINCIPLES RELATED TO PRACTICAL CHEMISTRY</strong><br>
+                          Detection of extra elements (Nitrogen, sulphur, halogens) in organic compounds, detection of the following functional groups, hydroxyl (alcoholic and phenolic), carbonyl (aldehyde and ketones) carboxyl and amino groups in organic compounds.<br>
+                          - The chemistry involved in the preparation of the following:<br>
+                          Inorganic compounds, Mohr’s salt, potash alum.<br>
+                          Organic compounds: Acetanilide, p-nitro acetanilide, aniline yellow, iodoform.<br>
+                          - The chemistry involved in the titrimetric exercises – acids, bases and the use of indicators, oxalic-acid vs KMnO4, Mohr’s salt vs KMnO4<br>
+                          - Chemical principles involved in the qualitative salt analysis:<br>
+                          Cations – Pb<sup>2+</sup>, Cu<sup>2+</sup>, Al<sup>3+</sup>, Fe<sup>3+</sup>, Zn<sup>2+</sup>, Ni<sup>2+</sup>, Ca<sup>2+</sup>, Ba<sup>2+</sup>, Mg<sup>2+</sup>, NH<sub>4</sub><sup>+</sup><br>
+                          Anions- CO<sub>3</sub><sup>2-</sup>, S<sup>2-</sup>, SO<sub>4</sub><sup>2-</sup>, NO<sub>3</sub><sup>-</sup>, NO<sub>2</sub><sup>-</sup>, Cl<sup>-</sup>, Br<sup>-</sup>, I<sup>-</sup> ( Insoluble salts excluded).<br>
+                          Chemical principles involved in the following experiments:<br>
+                          1. Enthalpy of solution of CuSO4<br>
+                          2. Enthalpy of neutralization of strong acid and strong base.<br>
+                          3. Preparation of lyophilic and lyophobic sols.<br>
+                          4. Kinetic study of the reaction of iodide ions with hydrogen peroxide at room temperature.
+                        </p>
+                        
+                      </div>
+                    </div>
+
+
+
+
+
+                    <div class="space-y-12" id="overview">
+                      {{>"components/tabs"}}
+
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+          {{>"global/pagination"}}
+        </div>
+        <!-- End div area -->
+      </div>
+      <!-- You can insert a third column here, for a table of contents if you wish, is already built and it will be fixed and hidden on phone.-->
+
+      <!-- End secondary column -->
+    </div>
+  </div>
+</div>
